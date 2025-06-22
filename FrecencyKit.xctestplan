@@ -1,0 +1,35 @@
+{
+  "configurations" : [
+    {
+      "id" : "B4D92B28-4232-4E79-828B-4EAE425E82A1",
+      "name" : "Configuration 1",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "codeCoverage" : {
+      "targets" : [
+        {
+          "containerPath" : "container:",
+          "identifier" : "FrecencyKit",
+          "name" : "FrecencyKit"
+        }
+      ]
+    },
+    "testExecutionOrdering" : "random",
+    "testTimeoutsEnabled" : true
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:",
+        "identifier" : "FrecencyKitTests",
+        "name" : "FrecencyKitTests"
+      }
+    }
+  ],
+  "version" : 1
+}
